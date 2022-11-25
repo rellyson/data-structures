@@ -28,7 +28,7 @@ Unlike arrays, linked lists are not stored at a contiguous location. Instead, th
 ## Basic operations
 
 - `insert`  - Add a element to a linked list.
-- `delete` - Delete a element from a linked list.
+- `remove` - Remove a element from a linked list.
 - `search` - Sequentially search for a node in a linked list.
 - `display` - Display a node data.
 
