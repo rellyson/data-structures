@@ -34,12 +34,12 @@ The table shown below represents the **time complexity of performing different o
 
 ## Common operations
 
-- `push`  - Add an element to the end of the Array.
+- `push`  - Adds an element to the end of the Array.
 - `pop` - Removes and returns the last element of the Array.
-- `remove` - Remove an element in the given position (**index**).
-- `insert` - Insert an element in the give position (**index**).
+- `remove` - Removes an element in the given position (**index**).
+- `insert` - Inserts an element in the give position (**index**).
 - `length/size` - Returns Array length.
-- `array[index]` - Get element in the given position (**index**).
+- `array[index]` - Get an element in the given position (**index**).
 
 ## When to use Arrays
 

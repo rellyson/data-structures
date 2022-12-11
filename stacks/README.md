@@ -18,10 +18,10 @@ The table shown below represents the **time complexity of performing different o
 
 ## Common operations
 
-- `push` - adds an element on the top of the stack.
-- `pop` - removes the element on the top of a stack, returning the element.
-- `top/peek` - returns the element on the top of the stack, without removing it.
-- `size/length` returns the stack length.
+- `push` - Adds an element on the top of the stack.
+- `pop` - Removes the element on the top of the stack, returning the element.
+- `top/peek` - Returns the element on the top of the stack, without removing it.
+- `size/length` Returns the stack length.
 
 ## When to use stacks
 

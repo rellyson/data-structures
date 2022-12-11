@@ -38,8 +38,8 @@ The table shown below represents the **time complexity of performing different o
 
 ## Common operations
 
-- `insert`  - Add an element to a linked list.
-- `remove` - Remove an element from a linked list.
+- `insert`  - Adds an element to a linked list.
+- `remove` - Removes an element from a linked list.
 - `search` - Sequentially search for a node in a linked list.
 - `display` - Display linked list data.
 
