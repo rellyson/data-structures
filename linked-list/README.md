@@ -25,9 +25,9 @@ Unlike arrays, linked lists are **not stored at a contiguous location**. Instead
 - Random access not alllowed. **Need to access elements sequencially**, starting from the first node (**Not able to do efficient binary search**).
 - **Not cache friendly**. Unknown element location.
 
-## Algorithm complexity (Big O Notation)
+## Algorithm time complexity (Big O Notation)
 
-The table shown bellow represents the **time complexity of performing different operations** on Linked Lists.
+The table shown below represents the **time complexity of performing different operations** on Linked Lists.
 
 | Operation                        | Notation |
 |----------------------------------|----------|

@@ -1,0 +1,29 @@
+# Data structure - Stack
+
+## Definition
+
+A stack is a **LIFO** structure (the last placed element is the first to be accessed). It **stores data into a sort of "vertical tower"**, like a stack of books.
+
+<img src="../assets/stack.jpg">
+
+## Algorithm time complexity (Big O Notation)
+
+The table shown below represents the **time complexity of performing different operations** on Stacks.
+
+| Operation                  | Notation |
+| -------------------------- | -------- |
+| Cost of accessing elements | **O(n)** |
+| Insert/remove an element   | **O(1)** |
+| Get an element             | **O(1)** |
+
+## Common operations
+
+- `push` - adds an element on the top of the stack.
+- `pop` - removes the element on the top of a stack, returning the element.
+- `top/peek` - returns the element on the top of the stack, without removing it.
+- `size/length` returns the stack length.
+
+## When to use stacks
+
+- Element need to be added or removed **from only one end, called the top**.
+- You need to **keep the order** of actions.
