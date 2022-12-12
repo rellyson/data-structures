@@ -2,7 +2,7 @@
 
 using namespace std;
 
-template <class T, ssize_t N>
+template <class T, int N>
 class Stack
 {
     int _top;
@@ -31,7 +31,7 @@ public:
     }
 
     /* Removes the element in the top of the stack,
-    returing it.
+    returning the element.
     */
     T pop()
     {
@@ -56,7 +56,7 @@ public:
         return this->_top == -1; // if top == -1 no value is present in the stack (empty)
     }
 
-    // Returns whether a stack is complete or not.
+    // Returns whether the stack is complete or not.
     bool isComplete()
     {
         return this->_top == this->_size - 1; // if top equals to size-1, the stack is full.
@@ -66,7 +66,7 @@ public:
 int main()
 {
     /* Initialing an integer stack with size 5
-    and pushing 4 elements.
+    and pushing elements.
     */
     Stack<int, 5> *firstFiveFibonacciSeq = new Stack<int, 5>();
     firstFiveFibonacciSeq->push(1);

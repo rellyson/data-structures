@@ -29,8 +29,8 @@ public:
     {
         // creating new node
         Node<T> *node = new Node<T>();
-        node->data = data;           // asign data
-        node->previous = this->_top; // point new node to current top node
+        node->data = data;           // assign data
+        node->previous = this->_top; // points new node to current top node
         node->next = NULL;           // points next to NULL, indicating the end of the stack
 
         if (this->_top != NULL)
@@ -63,7 +63,7 @@ public:
 
 int main()
 {
-    /* Initializing a new string Stack. One advantage
+    /* Initializing a new string Stack. The advantage
     of use linked list with stacks is that we have a
     dynamically sized Stack so we can push as many data
     as we want.
