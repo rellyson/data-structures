@@ -6,15 +6,14 @@ A stack is a **LIFO** structure (the last placed element is the first to be acce
 
 <img src="../assets/stack.jpg">
 
-## Algorithm time complexity (Big O Notation)
+## Algorithm time complexity
 
-The table shown below represents the **time complexity of performing different operations** on Stacks.
+The table shown below represents the **time complexity of performing different operations** on stacks.
 
-| Operation                  | Notation |
-| -------------------------- | -------- |
-| Cost of accessing elements | **O(n)** |
-| Insert/remove an element   | **O(1)** |
-| Get an element             | **O(1)** |
+| Operation                  | Array    | Linked List |
+| -------------------------- | -------- | ----------- |
+| Cost of accessing elements | **O(n)** | **O(n)**    |
+| Insert/remove an element   | **O(1)** | **O(1)**    |
 
 ## Common operations
 

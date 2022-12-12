@@ -2,24 +2,23 @@
 
 ## Definition
 
-A stack is a **FIFO** structure (the first placed element is also the first to be accessed). It's similar to a bank queue, where the first person entering the queue is the first person who gets attended.
+A queue is a **FIFO** structure (the first placed element is also the first to be accessed). It's similar to a bank queue, where the first person entering the queue is the first person who gets attended.
 
 <img src="../assets/queue.jpg">
 
-## Algorithm time complexity (Big O Notation)
+## Algorithm time complexity
 
-The table shown below represents the **time complexity of performing different operations** on Queues.
+The table shown below represents the **time complexity of performing different operations** on queues.
 
-| Operation                  | Notation |
-| -------------------------- | -------- |
-| Cost of accessing elements | **O(n)** |
-| Insert/remove an element   | **O(1)** |
-| Get an element             | **O(1)** |
+| Operation                  | Array    | Linked List |
+| -------------------------- | -------- | ----------- |
+| Cost of accessing elements | **O(n)** | **O(n)**    |
+| Insert/remove an element   | **O(1)** | **O(n)**    |
 
 ## Common operations
 
 - `enqueue` - Adds an element to the end of the queue.
-- `dequeue` - Removes the element on the beginning of the queue, returning the element.
+- `dequeue` - Removes the element from the beginning of the queue, returning the element.
 - `front` - Returns the element on the beginning of the queue, without removing it.
 - `size/length` Returns the queue length.
 

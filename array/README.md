@@ -21,9 +21,9 @@ Arrays are used to **store multiple elements of the same type in a single variab
 - **Unsafe consistency**. Element can be **inserted at any position** using an index, that can lead to **overriding an existing element**. Also, when redimensioning an Array, all elements **need to be copied to a new memory address**.
 - **Complex insertion/removal**. The complexity comes on manipulating data in the beginning or in the middle of the Array, where **is necessary to shift elements to perform an insertion or removal**.
 
-## Algorithm time complexity (Big O Notation)
+## Algorithm time complexity
 
-The table shown below represents the **time complexity of performing different operations** on Arrays.
+The table shown below represents the **time complexity of performing different operations** on arrays.
 
 | Operation                        | Notation |
 | -------------------------------- | -------- |
