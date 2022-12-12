@@ -16,7 +16,7 @@ public:
  */
 Node *search(Node *n, string data)
 {
-    while (n != NULL)
+    while (n)
     {
         if (n->data == data)
         {

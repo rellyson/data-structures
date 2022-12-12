@@ -18,7 +18,7 @@ void displayLinkedList(Node *n)
 {
     cout << "\n";
 
-    while (n != NULL)
+    while (n)
     {
         cout << "Address:" << n << " | Data:" << n->data << " | Next address ->:" << n->next << endl;
         n = n->next;
@@ -31,7 +31,7 @@ void displayLinkedList(Node *n)
  */
 Node *search(Node *n, string data)
 {
-    while (n != NULL)
+    while (n)
     {
         if (n->data == data)
         {

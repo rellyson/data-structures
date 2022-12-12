@@ -33,7 +33,7 @@ public:
         node->previous = this->_top; // points new node to current top node
         node->next = NULL;           // points next to NULL, indicating the end of the stack
 
-        if (this->_top != NULL)
+        if (this->_top)
             this->_top->next = node; // points current node next to new node
 
         this->_top = node; // assign new node to top
